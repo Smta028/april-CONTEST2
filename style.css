@@ -1,0 +1,102 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    width:100%;
+    box-sizing: border-box;
+    background-color: #1E1E1E;
+    font-family: 'Inter', sans-serif;
+    
+}
+.mainWrapper{
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 68px;
+align-self: center;
+    width: 80%;
+    height: 548px;
+    background-color:  #000000;
+}
+.heading{
+    font-size: 100px;
+    align-self: center;
+    font-weight: 700;
+}
+.fetchBtn{
+width: 492px;
+height: 58px;
+font-size: 24px;
+align-self: center;
+background: #FFFFFF;
+font-family: 'Inter', sans-serif;
+font-weight: 300;
+}
+.map{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.directions{
+    font-size: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.heading2{
+    font-size: 100px;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 700;
+}
+.longlat{
+    display: flex;
+    gap:20px;
+    font-size:50px;
+    color: #FFFFFF;
+}
+.weather{
+    background-color: white;
+    text-align: center;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 850px;
+    text-align: left;
+    justify-content: center;
+    padding: 15px;
+    align-self: center;
+    gap: 50px;
+    margin-bottom: 20px;
+
+}
+li{
+    list-style: none;
+    font-size: 50px;
+    font-weight: 400;
+}
+.heading3{
+    font-size: 100px;
+    font-weight: 700;
+}
+.latlong{
+    display: flex;
+    justify-content: space-between;
+}
